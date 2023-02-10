@@ -2,7 +2,7 @@ import './App.css'
 import Nav from "./Components/Nav"
 import Main from "./Components/Main"
 import Skills from "./Components/Skills"
-import ColladaModel from "./Components/Model"
+import Footer from "./Components/Footer"
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Nav />
       <Main />
       <Skills />
-      <ColladaModel />
+      <Footer />
     </div>
   )
 }
