@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  width: 150px;
+  height: 150px; 
+}
+
+nav {
+  height: 50px;
+  padding-bottom: 150px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links > a {
+  padding-left: 3rem; 
+}
+
+.nav-links {
+  padding-top: 40px;
+}
+
+.logo{
+  margin-right: 1000px;
+}
+
+.social-icons > img {
+  height: 30px;
+  width: 30px;
+}
+
