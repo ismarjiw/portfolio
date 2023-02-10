@@ -13,20 +13,19 @@
 
 nav {
   height: 50px;
-  padding-bottom: 150px;
-  padding-top: 25px;
+  padding-bottom: 90px;
+  padding-top: 80px;
   display: flex;
   justify-content: space-around;
-  padding-left: 90px;
+  align-items: center;
 }
 
 .nav-links > a {
-  margin: 0.6rem;
+  margin: 0.9rem;
 }
 
 .nav-links {
-  padding-top: 40px;
-  padding-right: 80px;
+  margin-left: -150px;
 }
 
 .social-icon {
