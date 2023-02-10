@@ -7,6 +7,8 @@
 .logo {
   width: 150px;
   height: 150px; 
+  margin-right: 1000px;
+  border-radius: 2rem;
 }
 
 nav {
@@ -25,12 +27,14 @@ nav {
   padding-top: 40px;
 }
 
-.logo{
-  margin-right: 1000px;
-}
-
-.social-icons > img {
+.social-icon {
   height: 30px;
   width: 30px;
+  padding-right: 15px;
+}
+
+ColladaModel {
+    width: 500px;
+    height: 500px; 
 }
 
