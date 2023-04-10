@@ -11,7 +11,7 @@ export default function Main() {
                 <a href="https://github.com/ismarjiw"><img className="social-icon" src={githubLogo} /></a>
                 <a href="https://www.linkedin.com/in/ismarjiworkman/" ><img className="social-icon" src={linkedinLogo} /></a>
             </div>
-            <h3>I love exploring and trying new things 🔎</h3><h3>I'm a lifelong learner and love KBBQ 🥘</h3> 
+            <h3>I love exploring and trying new things <span className="magnify">🔎</span></h3><h3>I'm a lifelong learner and love KBBQ <span className="food">🍖</span></h3> 
         </div>
         
     )

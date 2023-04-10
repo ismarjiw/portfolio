@@ -25,7 +25,8 @@ nav {
 }
 
 .nav-links {
-  margin-left: -150px;
+  margin-left: -200px;
+  margin-top: -120px;
 }
 
 .social-icon {
@@ -66,12 +67,22 @@ nav {
 
 footer {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
     width: auto;
-    padding-left: 33px;
+    padding-top: 10px;
 }
+
+span.food, span.magnify, span.peace {
+  font-size: 30px;
+}
+
+.specific-skill {
+  border-radius: 1rem;
+  border-color: rgb(217, 194, 145);
+  border-style: solid; 
+  width: 100px;
+  margin-top: 5px;
+  text-align: center;
+}
+
 
 
