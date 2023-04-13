@@ -10,7 +10,7 @@ export default function contact() {
         }
         emailjs.send("service_agszovn", "template_ki80x5j", params)
             .then(function (res) {
-                alert("Success! " + res.status);
+                swal("Thank you for your message! I'll be in touch soon 😊");
             })
     }
     
