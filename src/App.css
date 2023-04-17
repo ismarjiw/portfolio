@@ -5,10 +5,11 @@
 }
 
 .logo {
-  width: 150px;
-  height: 150px; 
+  width: 100px;
+  height: 100px; 
   margin-right: 1000px;
   border-radius: 2rem;
+  margin-bottom: 90px;
 }
 
 nav {
@@ -18,10 +19,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-header.sticky {
-  padding: 5 px 100px;
 }
 
 .nav-links > a {
@@ -45,6 +42,21 @@ header.sticky {
   }
 }
 
+.about-avatar {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 40vh;
+    margin-left: 600px;
+}
+
 .main-content h1::after {
   content: "";
   width: 7px;
@@ -54,15 +66,19 @@ header.sticky {
   animation: cursor-blink 1.5s steps(2) infinite;
 }
 
+.intro {
+  color: #f0b26f;
+}
+
 .job-title:hover {
   cursor: url('./assets/wand.png'), auto;
-  -webkit-text-fill-color: #f0b26f;
+  -webkit-text-fill-color: #DCE2EB
 }
 
 .job-title {
-  -webkit-text-stroke: 2px #f0b26f;
-  -webkit-text-fill-color: #f1dfc7;
-  width:fit-content;
+  -webkit-text-stroke: 2px #ADB8CA;
+  /* -webkit-text-fill-color: #f1dfc7; */
+  -webkit-text-fill-color: #ADB8CA;
 }
 
 /* .skills-content {
@@ -87,6 +103,66 @@ span.food, span.peace {
   margin-top: 5px;
   text-align: center;
 } */
+
+.avatar {
+  height: 500px;
+  width: 500px; 
+}
+
+.left-side {
+    width: 105px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+}
+
+.left-side li {
+  list-style-type: none; 
+  margin-bottom: 15px;
+}
+
+.left-side::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.right-side {
+  width: 105px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+}
+
+.email-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.right-side::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: black;
+}
+
+.name {
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+
 
 
 

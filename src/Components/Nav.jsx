@@ -1,6 +1,7 @@
 import React from "react"
 import {Link} from 'react-scroll'
 import portLogo from '../assets/logo.png'
+import newLogo from '../assets/IW.png'
 import resume from '../documents/Resume.pdf'
 
 export default function Nav() {
@@ -9,7 +10,7 @@ export default function Nav() {
         <div className="nav-content" id='hero'>
         <header>
         <nav> 
-            <img className="logo" src={portLogo} />
+            <img className="logo" src={newLogo} />
             <div className="nav-links">
                 <Link to="hero" spy={true} smooth={true} offset={-100} duration={600}>Home</Link>
                 <Link to="about" spy={true} smooth={true} offset={-100} duration={600}>About</Link>

@@ -16,7 +16,7 @@ export default function projects() {
             <Project 
                 name="Let me meme it for you"
                 description="A web app that allows users to generate random meme images to add text to and create their own custom memes."
-                stack="Javascript React HTML, CSS Netlify"
+                stack="Javascript React HTML CSS Netlify"
                 demo="https://sprightly-blancmange-e1b620.netlify.app/"
                 code="https://github.com/ismarjiw/meme-generator"
             />
