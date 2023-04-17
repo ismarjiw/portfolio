@@ -1,6 +1,5 @@
 import React from 'react'
 import Project from "./Project"
-import Skill from "./Skill"
 
 export default function projects() {
     return (

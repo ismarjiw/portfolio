@@ -46,21 +46,24 @@ nav {
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 50px;
+    width: 50%;
+    margin-left: 480px;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     height: 40vh;
     margin-left: 600px;
+    margin-bottom: 300px;
 }
 
 .main-content h1::after {
   content: "";
   width: 7px;
-  height: 60px;
+  height: 70px;
   background: #f0b26f;
   display: inline-block;
   animation: cursor-blink 1.5s steps(2) infinite;
@@ -81,28 +84,16 @@ nav {
   -webkit-text-fill-color: #ADB8CA;
 }
 
-/* .skills-content {
-  margin-bottom: 100px;
-} */
-
 footer {
-    position: absolute;
-    width: auto;
-    padding-top: 10px;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-content: center;
 }
 
 span.food, span.peace {
   font-size: 30px;
 }
-
-/* .specific-skill {
-  border-radius: 1rem;
-  border-color: rgb(217, 194, 145);
-  border-style: solid; 
-  width: 100px;
-  margin-top: 5px;
-  text-align: center;
-} */
 
 .avatar {
   height: 500px;
@@ -160,6 +151,46 @@ span.food, span.peace {
 
 .name {
   font-size: clamp(40px, 8vw, 80px);
+}
+
+.about-avatar {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+  width: 50%;
+  margin-left: 480px;
+  margin-bottom: 300px;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  width: 50%;
+  margin-left: 480px;
+  margin-bottom: 300px;
+}
+
+.specific-project button {
+  margin-right: 10px; 
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    width: 55%;
+    margin-left: 480px;
+    margin-bottom: 150px;
+}
+
+.contact-form input, textarea{
+  width: 60%; 
+  border-radius: 10px;
+}
+
+.contact-form button {
+  width: 30%;
 }
 
 
