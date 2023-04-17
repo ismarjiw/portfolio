@@ -56,7 +56,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     height: 40vh;
-    margin-left: 600px;
+    margin-left: 370px;
     margin-bottom: 300px;
 }
 
@@ -70,18 +70,19 @@ nav {
 }
 
 .intro {
-  color: #f0b26f;
+  /* color: #f0b26f; */
+  color: #ADB8CA;
 }
 
 .job-title:hover {
   cursor: url('./assets/wand.png'), auto;
-  -webkit-text-fill-color: #DCE2EB
+  /* -webkit-text-fill-color: #DCE2EB */
+  -webkit-text-fill-color: #e6cbae;
 }
 
 .job-title {
-  -webkit-text-stroke: 2px #ADB8CA;
-  /* -webkit-text-fill-color: #f1dfc7; */
-  -webkit-text-fill-color: #ADB8CA;
+  -webkit-text-stroke: 2px #f0b26f;
+  -webkit-text-fill-color: #f0b26f;
 }
 
 footer {
@@ -119,7 +120,7 @@ span.food, span.peace {
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: black;
+    background-color: #B09F8B;
 }
 
 .right-side {
@@ -128,6 +129,10 @@ span.food, span.peace {
   bottom: 0px;
   left: auto;
   right: 40px;
+}
+
+.right-side a {
+  color: #ADB8CA;
 }
 
 .email-wrapper {
@@ -146,7 +151,7 @@ span.food, span.peace {
   width: 1px;
   height: 90px;
   margin: 0px auto;
-  background-color: black;
+  background-color: #B09F8B;
 }
 
 .name {
@@ -157,22 +162,43 @@ span.food, span.peace {
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 50px;
-  width: 50%;
-  margin-left: 480px;
+  width: 80%;
+  margin-left: 200px;
   margin-bottom: 300px;
+}
+
+.about-resume h2 {
+  color: #ADB8CA;
 }
 
 .projects-content {
   display: flex;
   flex-direction: column;
   gap: 20px; 
-  width: 50%;
-  margin-left: 480px;
+  width: 55%;
+  margin-left: 350px;
   margin-bottom: 300px;
+}
+
+.projects-content h2 {
+  color: #ADB8CA;
+}
+
+.projects-content h3 {
+  font-weight: 850;
 }
 
 .specific-project button {
   margin-right: 10px; 
+}
+
+.specific-project {
+  margin-bottom: 40px;
+}
+
+.project-stack {
+  color: #f0b26f;
+  font-weight: 800;
 }
 
 .contact-form {
@@ -180,7 +206,7 @@ span.food, span.peace {
     flex-direction: column;
     gap: 5px; 
     width: 55%;
-    margin-left: 480px;
+    margin-left: 350px;
     margin-bottom: 150px;
 }
 
@@ -191,6 +217,18 @@ span.food, span.peace {
 
 .contact-form button {
   width: 30%;
+}
+
+.contact-form h2 {
+  color: #ADB8CA;
+}
+
+.project-image {
+  height: 410px;
+  width: auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 

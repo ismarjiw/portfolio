@@ -5,7 +5,6 @@
   font-weight: 400;
 
   color-scheme: light;
-  /* color: rgba(255, 255, 255, 0.87); */
   color: #B09F8B;
   background-color: #f1dfc7;
 
@@ -19,12 +18,15 @@
 a {
   font-weight: 500;
   font-size: large;
-  /* color: #fefefe; */
-  color: #dba875;
+  color: #B09F8B;
   text-decoration: inherit;
 }
 a:hover {
   color: #e3a63c;
+}
+
+li {
+  font-weight: 500;
 }
 
 body {
