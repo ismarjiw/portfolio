@@ -25,10 +25,10 @@ export default function Main() {
                     <h3>Here are a few technologies I've been working with recently:</h3>
                     <ul>
                         <li>Python</li>
+                        <li>Flask</li>
                         <li>Javascript (ES6+)</li>
                         <li>React</li>
                         <li>Java</li>
-                        <li>Flask</li>
                     </ul>
                     <button onClick={openResume}>Download Resume <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></button>
                 </section>
