@@ -10,7 +10,7 @@ export default function projects() {
             <Project 
                 name="Mind Meter"
                 description="My first full-stack app. Mind Meter is a web app where users can log meditation sessions, write journal entries, and listen to relaxing music all in one place."
-                stack="Javascript React Python Flask Spotify API YouTube API Google API OAuth 2.0 AWS"
+                stack="Javascript React Tailwind Python Flask Spotify API Google API OAuth 2.0 AWS"
                 demo="http://meetmindmeter.com/"
                 code="https://github.com/ismarjiw/Mind-Meter"
                 image={mindmeter}
