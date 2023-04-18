@@ -21,7 +21,7 @@ export default function Main() {
                     <h2 id='about'> About Me </h2>
                     <h3>Hi! My name is Ismarji and I enjoy creating things that live on the internet & love KBBQ.<span className="food">🍖</span></h3>
                     <h3>My interest in web development started back in 2011 when I decided to try learning Javascript on Codecademy.</h3>
-                    <h3>Fast-forward to today, I've had the privilege of getting sponsored by Walmart to attend Hackbright's full-stack software engineering program and recently graduated January 2023. My main focus these days is building accessible, inclusive products that focus on both front-end and back-end design.</h3>
+                    <h3>Fast-forward to today, I've had the privilege of getting sponsored by Walmart to attend <a href="https://hackbrightacademy.com/">Hackbright's</a> full-stack software engineering program and recently graduated January 2023. My main focus these days is building accessible, inclusive products that focus on both front-end and back-end design.</h3>
                     <h3>Here are a few technologies I've been working with recently:</h3>
                     <ul>
                         <li>Python</li>

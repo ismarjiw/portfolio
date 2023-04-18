@@ -241,6 +241,11 @@ span.food, span.peace {
 	opacity: .5;
 }
 
+.about-resume a {
+  font-size: 1em;
+  font-weight: bold;
+  color: #f0b26f;
+}
 
 
 
