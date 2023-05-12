@@ -8,18 +8,19 @@
     .logo {
         width: 100px;
         height: 100px;
-        margin-left: 20vh;
+        margin-left: 25vh;
         margin-right: 50vh;
         padding-left: 5vh;
         margin-bottom: 10vh;
     }
 
-    .nav-links>a {
+    .nav-links > a {
         margin: 0.6rem;
+        font-size: 0.9em;
     }
 
     .nav-links {
-        margin-left: -45vh;
+        margin-left: -55vh;
         margin-top: -10vh;
         padding-left: 5vh;
     }
