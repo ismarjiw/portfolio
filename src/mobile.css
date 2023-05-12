@@ -52,8 +52,8 @@
         flex-direction: column;
         align-items: flex-start;
         height: 20vh;
-        width: 70vh;
-        margin-left: 75px;
+        width: 80vh;
+        margin-left: 50px;
         margin-bottom: 40vh;
     }
     
@@ -86,7 +86,6 @@
         display: flex;
         bottom: 0;
         width: 50vh;
-        margin-left: 5vh;
         justify-content: center;
         align-content: center;
     }
@@ -163,7 +162,7 @@
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 5px;
-        width: 180%;
+        width: 200%;
         margin-left: 20px;
         margin-bottom: 300px;
     }
@@ -176,7 +175,7 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
-        width: 150%;
+        width: 200%;
         margin-left: 20px;
         margin-bottom: 300px;
     }
@@ -207,7 +206,7 @@
         flex-direction: column;
         gap: 5px;
         width: 100%;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-bottom: 150px;
     }
     
