@@ -1,0 +1,251 @@
+@media (max-width: 768px) {
+    #root {
+        max-width: auto;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 20vh;
+        margin-right: 50vh;
+        margin-bottom: 10vh;
+    }
+
+    .nav-links>a {
+        margin: 0.6rem;
+    }
+
+    .nav-links {
+        margin-left: -45vh;
+        margin-top: -10vh;
+    }
+
+    nav {
+        height: 50px;
+        padding-bottom: 90px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .social-icon {
+        height: 30px;
+        width: 30px;
+        padding-right: 15px;
+    }
+    
+    @keyframes cursor-blink {
+        0% {
+            opacity: 0;
+        }
+    }
+    
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 30vh;
+        width: 50vh; 
+        margin-left: 75px;
+        margin-bottom: 300px;
+    }
+    
+    .main-content h1::after {
+        content: "";
+        width: 7px;
+        height: 50px;
+        background: #f0b26f;
+        display: inline-block;
+        animation: cursor-blink 1.5s steps(2) infinite;
+    }
+    
+    .intro {
+        /* color: #f0b26f; */
+        color: #ADB8CA;
+    }
+    
+    .job-title:hover {
+        cursor: url('./assets/wand.png'), auto;
+        /* -webkit-text-fill-color: #DCE2EB */
+        -webkit-text-fill-color: #e6cbae;
+    }
+    
+    .job-title {
+        -webkit-text-stroke: 2px #f0b26f;
+        -webkit-text-fill-color: #f0b26f;
+    }
+    
+    footer {
+        display: flex;
+        bottom: 0;
+        width: 50vh;
+        margin-left: 5vh;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    span.food,
+    span.peace {
+        font-size: 30px;
+    }
+    
+    .avatar {
+        height: 300px;
+        width: 300px;
+        margin-right: 5vh; 
+    }
+    
+    .left-side {
+        width: 105px;
+        position: fixed;
+        bottom: 0px;
+        left: -30px;
+        right: auto;
+    }
+    
+    .left-side li {
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+    
+    .left-side::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 600px;
+        margin: 0px auto;
+        background-color: #B09F8B;
+    }
+    
+    .right-side {
+        width: 105px;
+        position: fixed;
+        bottom: 0px;
+        left: auto;
+        right: -30px;
+    }
+    
+    .right-side a {
+        color: #ADB8CA;
+    }
+    
+    .email-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        margin-bottom: 20px;
+        padding-left: 40px;
+    }
+    
+    .right-side::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 600px;
+        margin: 0px auto;
+        background-color: #B09F8B;
+    }
+    
+    .name {
+        font-size: clamp(40px, 8vw, 80px);
+    }
+    
+    .about-avatar {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 5px;
+        width: 180%;
+        margin-left: 20px;
+        margin-bottom: 300px;
+    }
+    
+    .about-resume h2 {
+        color: #ADB8CA;
+    }
+    
+    .projects-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 150%;
+        margin-left: 20px;
+        margin-bottom: 300px;
+    }
+    
+    .projects-content h2 {
+        color: #ADB8CA;
+    }
+    
+    .projects-content h3 {
+        font-weight: 850;
+    }
+    
+    .specific-project button {
+        margin-right: 10px;
+    }
+    
+    .specific-project {
+        margin-bottom: 40px;
+    }
+    
+    .project-stack {
+        color: #f0b26f;
+        font-weight: 800;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        margin-left: 100px;
+        margin-bottom: 150px;
+    }
+    
+    .contact-form input,
+    textarea {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .contact-form button {
+        width: 80%;
+        margin-left: 4.5vh;
+    }
+    
+    .contact-form h2 {
+        color: #ADB8CA;
+    }
+    
+    .image {
+        height: 240px;
+        width: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .project-image img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .project-image img:hover {
+        opacity: .5;
+    }
+    
+    .about-resume a {
+        font-size: 1em;
+        font-weight: bold;
+        color: #f0b26f;
+    }
+
+}
+
