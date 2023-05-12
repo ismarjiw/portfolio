@@ -86,9 +86,10 @@
     footer {
         display: flex;
         bottom: 0;
-        width: 50vh;
+        width: 35vh;
         justify-content: center;
         align-content: center;
+        font-size: 0.8em;
     }
     
     span.food,
@@ -171,7 +172,7 @@
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 5px;
-        width: 200%;
+        width: 100%;
         margin-left: 20px;
         margin-bottom: 300px;
     }
@@ -215,8 +216,8 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
-        width: 100%;
-        margin-left: 50px;
+        width: 90%;
+        margin-left: 25px;
         margin-bottom: 150px;
     }
     
@@ -236,8 +237,8 @@
     }
     
     .image {
-        height: 240px;
-        width: 20rem;
+        height: 11em;
+        width: 19em;
         margin-bottom: 20px;
         border-radius: 10px;
     }
