@@ -38,7 +38,7 @@ export default function Nav() {
 		<div className="nav-content" id="hero">
 			<header>
 				<nav>
-					<img className="logo" src={newLogo} />
+					<img className="logo" alt="portfolio logo" src={newLogo} />
 					<FontAwesomeIcon icon={hamburger} onClick={toggleMenu} />
 					{showMenu && (
 						<div className="nav-links" ref={menuRef}>
