@@ -32,5 +32,10 @@
       "eslint --cache --fix"
     ],
     "*.{html,js,jsx,ts,tsx,json,css,scss,md}": "prettier --cache --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
