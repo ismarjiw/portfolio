@@ -17,8 +17,6 @@ export default function Nav() {
 		setShowMenu(false);
 	};
 
-	const test = 'test';
-
 	useEffect(() => {
 		function handleClickOutside(event) {
 			if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -74,7 +72,12 @@ export default function Nav() {
 							>
 								Projects
 							</Link>
-							<a href={resume} target="_blank" onClick={closeMenu} rel="noreferrer">
+							<a
+								href={resume}
+								target="_blank"
+								onClick={closeMenu}
+								rel="noreferrer"
+							>
 								Resume
 							</a>
 							<Link
