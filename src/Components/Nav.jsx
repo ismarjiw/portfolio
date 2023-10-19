@@ -17,7 +17,7 @@ export default function Nav() {
 		setShowMenu(false);
 	};
 
-	const test = test;
+	const test = 'test';
 
 	useEffect(() => {
 		function handleClickOutside(event) {
