@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -35,10 +35,5 @@
       "eslint --cache --fix"
     ],
     "*.{html,js,jsx,ts,tsx,json,css,scss,md}": "prettier --cache --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
