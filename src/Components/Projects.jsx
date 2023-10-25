@@ -10,7 +10,7 @@ export default function projects() {
             <h2>Some Things I've Built</h2>
             <Project 
                 name="Listify"
-                description="A web app that allows users to have a smart shopping list that learns their buying habits and helps them remember what they are likely to need to buy on their next trip to the store"
+                description="A web app that allows users to have a smart shopping list that learns their buying habits and helps them remember what they are likely to need to buy on their next trip to the store."
                 stack="JavaScript React TailwindCSS Firebase"
                 demo="https://tcl-64-smart-shopping-list.web.app/"
                 code="https://github.com/the-collab-lab/tcl-64-smart-shopping-list"
