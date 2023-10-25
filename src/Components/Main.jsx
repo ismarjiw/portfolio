@@ -19,18 +19,19 @@ export default function Main() {
             <div className="about-avatar">
                 <section className="about-resume">
                     <h2 id='about'> About Me </h2>
-                    <h3>Hi! My name is Ismarji and I enjoy creating things that live on the internet & love KBBQ.<span className="food">🍖</span></h3>
-                    <h3>My interest in web development started back in 2011 when I decided to try learning Javascript on Codecademy.</h3>
-                    <h3>Fast-forward to today, I've had the privilege of getting sponsored by Walmart to attend <a href="https://hackbrightacademy.com/">Hackbright's</a> full-stack software engineering program and recently graduated January 2023. My main focus these days is building accessible, inclusive products that focus on both front-end and back-end design.</h3>
+                    <h3>Hello, I'm Ismarji <i>(is-mar-e)</i>, a web developer with a passion for both code and delicious KBBQ! <span className="food">🍖</span></h3>
+                    <h3>My journey into the world of web development began in 2011 when I took my first steps in learning JavaScript through Codecademy.</h3>
+                    <h3>Fast forward to today, I've had the incredible opportunity to be sponsored by Walmart to join <a href="https://hackbrightacademy.com/">Hackbright Academy</a> where I completed their full-stack software engineering program and proudly graduated in January 2023. Now, my main focus is creating accessible and inclusive digital products that combine my expertise in front-end and back-end design.</h3>
                     <h3>Here are a few technologies I've been working with recently:</h3>
                     <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
                         <li>Python</li>
                         <li>Flask</li>
-                        <li>Javascript (ES6+)</li>
-                        <li>React</li>
                         <li>Java</li>
+                        <li>Springboot</li>
                     </ul>
-                    <button onClick={openResume}>Download Resume <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></button>
+                    <button onClick={openResume}>Download Resume <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></button>
                 </section>
                 <section className="avatar-img">
                     <img className="avatar" src={avatar} />
